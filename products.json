@@ -1,37 +1,58 @@
 [
 	{
-		"image": "https://i.ytimg.com/vi/TsTtqGAxvWk/maxresdefault.jpg",
+		"image": "https://media.discordapp.net/attachments/1346372768123588608/1361325343100637195/Untitled-2.png?ex=67fe5885&is=67fd0705&hm=ca48001b46fde4db1d2e928a013dc61cde2b1e72a8e73d202bdd195b793ce607&=&format=webp&quality=lossless&width=968&height=968",
 		"title": "Avatar",
 		"description": "Avatar chibi phong cách đáng yêu",
-		"price": "80,000 VND",
+		"price": "120,000 VND",
 		"category": "customs-profile"
 	},
 	{
-		"image": "https://static.planetminecraft.com/files/image/minecraft/server/2019/808/12575603_l.jpg",
+		"image": "https://media.discordapp.net/attachments/1346372768123588608/1361325492623380540/banner.png?ex=67fe58a9&is=67fd0729&hm=f955b8e35767cbc7d8ed50c5113de0dafd36c78e8045d49d5cbb4673dfc12483&=&format=webp&quality=lossless&width=1536&height=864",
 		"title": "Banner",
 		"description": "Banner chibi độc đáo.",
-		"price": "180,000 VND",
+		"price": "250,000 VND",
 		"category": "customs-profile"
 	},
 	{
 		"image": "https://i.ytimg.com/vi/Va7iN7y3_aA/maxresdefault.jpg",
 		"title": "Wallpaper",
 		"description": "Hình nền chibi dễ thương",
-		"price": "220,000 VND",
+		"price": "420,000 VND",
 		"category": "customs-profile"
 	},
 	{
 		"image": "https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/474067nYa/wallpaper-minecraft-4k-phong-canh-tru-tinh_075947237_thumb.jpg",
-		"title": "Minecraft Acc",
-		"description": "Tài khoản Minecraft Common giá rẻ",
-		"price": "120,000 VND",
+		"title": "Make New Skin",
+		"description": "Vẽ một skin mới đẹp đẽ và mới lạ.",
+		"price": "40,000 VND",
 		"category": "minecraft"
 	},
 	{
-		"image": "https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/474067jys/hinh-nen-phong-canh-minecraft-4k_075941311.jpg",
-		"title": "Minecraft Acc VIP",
-		"description": "Tài khoản Minecraft VIP chính hãng.",
-		"price": "150,000 VND",
+		"image": "https://media.discordapp.net/attachments/1346372768123588608/1361325144139763752/skin_base_bo.png?ex=67fe5856&is=67fd06d6&hm=90a14eb2736b48e3613d7690fd2865da4d7d11144024da5a8b6b2a7822b02968&=&format=webp&quality=lossless&width=645&height=968",
+		"title": "Reshade + Remake Skin",
+		"description": "Vẽ lại skin nhanh chóng, mới mẻ, đẹp đẽ.",
+		"price": "20,000 VND",
 		"category": "minecraft"
-	}
+	},
+        {
+		"image": "https://media.discordapp.net/attachments/1346372768123588608/1361325261949239296/thumb2.png?ex=67fe5872&is=67fd06f2&hm=d28a5f500ab720f349479988d6fec1bb7a126dd3974528f85028a171aab6d171&=&format=webp&quality=lossless&width=1536&height=864",
+		"title": "Thumbnail Minecraft",
+		"description": "Tạo thumbnail độc đáo, cuốn hút người xem.",
+		"price": "5,000 VND",
+		"category": "customs-profile"     
+        },
+        {
+		"image": "https://media.discordapp.net/attachments/1346372768123588608/1361325261949239296/thumb2.png?ex=67fe5872&is=67fd06f2&hm=d28a5f500ab720f349479988d6fec1bb7a126dd3974528f85028a171aab6d171&=&format=webp&quality=lossless&width=1536&height=864",
+		"title": "Thumbnail Others",
+		"description": "Tạo thumbnail nhiều lĩnh vực khác.",
+		"price": "15,000 VND - > 30,000 VND",
+		"category": "customs-profile"     
+        },
+	{
+		"image": "https://media.discordapp.net/attachments/1346372768123588608/1361325075789254777/icon_entie_shop.png?ex=67fe5846&is=67fd06c6&hm=90bb6726dc6406fedc663c7ae1fde89ae8023685132229aec0e84b17ee9d4824&=&format=webp&quality=lossless&width=1440&height=864",
+		"title": "x1 Set Emoji",
+		"description": "Tạo biểu cảm nhân vật đẹp và bắt mắt.",
+		"price": "55,000 VND",
+		"category": "customs-profile"     
+        }
 ]
