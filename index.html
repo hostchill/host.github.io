@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="images/logo.png">
+    <meta name="description" content="Free, modern and nice web template for Minecraft server.">
+    <meta name="author" content="Astronawta">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/pages/home.css">
+
+    <title>OceMC - Server Minecraft Việt Nam</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="menu-mobile">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Server logo" class="logo-img">
+                    <h3 class="server-name">OceMC</h3>
+                </div>
+            </a>
+
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle Theme" style="background: none; border: none; cursor: pointer;">
+  <div class="theme-icons">
+    <img id="moon-icon" src="/images/night.png" alt="Dark Mode" width="30" height="30">
+    <img id="sun-icon" src="/images/sun.webp" alt="Light Mode" width="30" height="30">
+  </div>
+</button>
+
+        <style>
+            .theme-icons {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.theme-icons img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Chế độ tối hiển thị icon mặt trăng */
+#moon-icon {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Khi ở light mode thì icon mặt trời hiển thị */
+.light-mode #moon-icon {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.light-mode #sun-icon {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Hover hiệu ứng phóng + xoay */
+#toggle-theme:hover img {
+  transform: scale(1.2) rotate(360deg);
+    filter: drop-shadow(0 0 1rem rgb(69, 112, 255));
+    filter: drop-shadow(0 0 0.75rem rgb(69, 112, 255));
+}
+
+
+        </style>
+    </div>
+
+    <!--Header-->
+    <div class="background">
+    <section id="header">
+        <div class="content">
+
+            <div class="left">
+                <div class="server-name">
+                    <p>Survival Multiplayer Server</p>
+                    <h1 class="minecraft-server-ip">play.ocemc.online</h1>
+                </div>
+                <div class="buttons">
+                    <button class="copy-ip">Chơi Ngay</button>
+                    <a href="#about"><button class="how-to-join">Thông Tin</button></a>
+                </div>
+                <p class="ip-copied">IP đã được sao chép!</p>
+            </div>
+
+            <div class="right">
+                <img src="images/logo.png" alt="Server logo" class="logo-img logo-img-header">
+
+                <div class="stats">
+                    <div class="stat">
+                        <div class="texts">
+                            <h5 class="stat-title">Discord</h5>
+                            <p><span class="stat-number discord-online-users">0</span> người đang online</p>
+                        </div>
+                    </div>
+                    <div class="stat">
+
+                        <div class="texts">
+                            <h5 class="stat-title">Minecraft Server</h5>
+                            <p><span class="stat-number minecraft-online-players">0</span> người đang online</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <!--About us-->
+<section id="about">
+    <div class="content">
+        <div class="left">
+            <h2 class="section-title">Thông Tin</h2>
+            <p class="about-us">
+                Chào mừng đến với <strong>OceMC</strong> – máy chủ Minecraft Việt Nam với chế độ chơi Lifesteal kết hợp kỹ năng cực kỳ độc đáo: <strong>Skillsteal</strong>!  
+                Tại đây, bạn sẽ trải nghiệm cảm giác sinh tồn, chiến đấu, cày cuốc và PK cực gắt cùng bạn bè.  
+                Skillsteal mang lại sự khác biệt khi mỗi người chơi đều sở hữu kỹ năng riêng, hệ thống mạng sống giới hạn, và cơ chế hồi sinh đồng đội siêu mới lạ.
+            </p>
+        </div>
+
+        <div class="right">
+            <img src="images/bee.png    " alt="Minecraft person">
+            <div class="img-background"></div>
+        </div>
+    </div>
+</section>
+
+<!--Skillsteal Game Mode-->
+<section id="minigames">
+    <div class="content miniGames-list">
+
+        <div class="game">
+            <img src="images/discord-section-background.jpg" alt="Skillsteal image">
+
+            <div class="info">
+                <h2 class="section-title">Skillsteal</h2>
+                <div class="game-description">
+                    <p><strong>Skillsteal</strong> là chế độ chơi sinh tồn PvP theo phong cách Lifesteal kết hợp Class và kỹ năng riêng biệt cho từng người chơi.  
+                    Cơ chế mới mẻ: mỗi người có 20 mạng – giết địch sẽ hồi mạng, hết mạng bị loại khỏi server!  
+                    Cày cấp, nâng skill, tổ đội sinh tồn và trở thành chiến binh mạnh nhất!</p>
+                    <ul class="services">
+                        <li class="service">Chọn class miễn phí với kỹ năng riêng</li>
+                        <li class="service">PvP Lifesteal đầy kịch tính</li>
+                        <li class="service">20 mạng – mất hết sẽ bị loại</li>
+                        <li class="service">Cấp độ, sự kiện, và quà tặng hấp dẫn</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!--Discord-->
+    <section id="discord">
+        <div class="content">
+            <h2 class="section-title">Bạn gặp <span>vấn đề</span> hoặc muốn liên hệ với chúng tôi? <br> Tham gia ngay <span>Discord!</span></h2>
+            <a href="#" class="discord-link"><button class="join-discord">Tham Gia Discord</button></a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+        <p class="copyright">&copy; 2025 <span class="server-name-footer">By Toàn Be</span></p>
+        <div class="social-links">
+            <a href="#" class="link tiktok-link"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" class="link instagram-link"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" class="link discord-link-footer"><i class="fa-brands fa-discord"></i></a>
+        </div>
+    </footer>
+</body>
+<script>
+  const toggleBtn = document.getElementById('toggle-theme');
+  const root = document.documentElement;
+
+  // Khôi phục chế độ người dùng đã lưu
+  if (localStorage.getItem('theme') === 'light') {
+    root.classList.add('light-mode');
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    root.classList.toggle('light-mode');
+    const isLight = root.classList.contains('light-mode');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+  });
+</script>
+
+
+<script src="js/script.js"></script>
+
+</html>
